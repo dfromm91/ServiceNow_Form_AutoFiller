@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-05-03 16:07:43">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Includes a variable set containing a single checkbox. When checked, the associated client script loops through all visible variables on the form and fills them with default values. It recursively re-runs until all dependent (UI policy-controlled) questions are revealed and filled. Reference fields are populated via a GlideAjax call to a Script Include, which returns the first matching record that satisfies any configured reference qualifiers.</description>
+<inserted/>
+<name>Form AutoFiller</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>803fb31dc399621086987132b4013120</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-03 16:07:42</sys_created_on>
+<sys_id>52e14869c3d9621086987132b4013124</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-05-03 16:07:42</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_set_9cc8ba4dc351221086987132b401315d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set"><item_option_new_set action="INSERT_OR_UPDATE"><create_roles/><description/><display_title>false</display_title><internal_name>fill_test_data</internal_name><layout>normal</layout><name/><order>100</order><read_roles/><set_attributes/><sys_class_name>item_option_new_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-02 16:10:30</sys_created_on><sys_id>9cc8ba4dc351221086987132b401315d</sys_id><sys_mod_count>41</sys_mod_count><sys_name>fill test data</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>item_option_new_set_9cc8ba4dc351221086987132b401315d</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-05-03 15:48:20</sys_updated_on><title>fill test data</title><type>one_to_one</type><version>41</version><write_roles/></item_option_new_set></record_update>]]></payload>
+<payload_hash>-1305119350</payload_hash>
+<remote_update_set display_value="Form AutoFiller">52e14869c3d9621086987132b4013124</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-03 16:07:42</sys_created_on>
+<sys_id>12e14869c3d9621086987132b4013125</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19696d58ed10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-05-03 16:07:42</sys_updated_on>
+<table/>
+<target_name>fill test data</target_name>
+<type>Variable Set</type>
+<update_domain>global</update_domain>
+<update_guid>e27dfbd151d96210654ecec0875c4791</update_guid>
+<update_guid_history>e27dfbd151d96210654ecec0875c4791:-1305119350,a7e8c4d514192210dbe1f3422efca7e3:-1096421047,89884095f419221051810aa65297ce9a:-800025677,d623c09d39d522106dcfe0d7f8d4a892:-591327374,1f92485d4ed52210d7b92549a6de1683:-382629071,94a1809df6d522107f93899a3f93d86f:-173930768,66fef7495cd522101c6cc567eaf7b7ec:34767535,ff4e334906d52210c2769ec7d374ec03:243465838,f3ddfb09d9d522101d9fc25c4659796e:452164141,e4cc37c5fad52210a8e75ba3665216ed:660862444,cb9a73c14fd5221045229fde2b7701c4:869560747,cb2afbc18ad52210707adad21edfaa4f:1078259050,c6a97b8136d52210804cc9d6fc90ba97:1374654420,9897bbcdb3952210959503253d3d4de8:1583352723,7f95b34d869522101208aa01fecdad30:1792051026,d7b4770d3c9522105303e03de01b4758:2000749329,c0533b895f9522103ca235ae0d613471:-2085519664,5dd23f495b952210512f43479b35eaae:-1876821361,9162f309019522106bc375db6423371b:-1668123058,6ee1b70914952210f49e28af4c40e7b4:-1459424755,2151fbc50c95221096b972e7045a3d67:-1250726452,cd3d0fc9eed12210465a6fba3e2e3417:-1042028149,d3fb03c5d4d1221061263fdbdb37eb5d:-745632779,ba7b4b4927d12210bd6a820ba3ade5ca:-536934476,503bcb09a5d12210c14abec3d95d9625:-328236173,76dac3c559d12210121915769c660d30:-119537870,f38983c543d12210215021325cd0dfdf:89160433,ccc88385e3d12210fc826346607a8a28:297858736,7b878b054fd1221074cb445ded2be6e2:506557039,fc47c7c12bd12210de23f4ed90b1dd79:715255342,a56643c10dd12210bc181037419ed358:923953645,08168b8123d12210c2da103afe3e1bc6:1132651948,6bb5c7416bd1221035241f0de9aaac50:-2133858486,db15c3cdfb9122103bdbcb4fd01f2e3b:-1925160183,03a44b01bad12210f34958ae3ad99135:-1716461880,63248bc9339122107f28b2459115523b:-1507763577,32a343cd1f912210846d9b2687dbeb29:-1299065274,e7dfb209e291221089484522eca88fb1:-1090366971,2d2dfe0521912210dd26ddb79f762844:-881668668,001d3e05ca91221016d0502f17e643de:-672970365,70ca3a41d59122100bb1330e4da600f8:-464272062,25f876cdeb512210d5ed9d1c0adbb8a4:-722423579</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>catalog_script_client_49897201c391221086987132b4013137</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;set&lt;/applies_to&gt;&lt;cat_item/&gt;&lt;cat_variable&gt;IO:9afcfa05c391221086987132b4013159&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Autofill test data&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || !newValue) {
+        return;
+    }
+    fillVisibleFields(0);
+}
+
+function fillVisibleFields(attempts) {
+    if (attempts &gt; 5) {
+        return;
+    }
+
+    var changed = false;
+    var fields = g_form.getEditableFields() || [];
+
+    for (var i = 0; i &lt; fields.length; i++) {
+        var name = fields[i];
+        var ui = g_form.getGlideUIElement(name);
+
+        if (name === 'fill_test_data') {
+            continue;
+        }
+
+        if (!g_form.isVisible(name)) {
+            continue;
+        }
+
+        if (!ui) {
+            continue;
+        }
+
+        var raw = g_form.getValue(name);
+        if (raw !== null &amp;&amp; raw.trim() !== '') {
+            continue;
+        }
+
+        var ctrl = g_form.getControl(name);
+        if (ctrl &amp;&amp; ctrl.tagName === 'SELECT') {
+            if (ctrl.options.length &gt; 1) {
+                g_form.setValue(name, ctrl.options[1].value);
+                changed = true;
+            }
+            continue;
+        }
+
+        switch (ui.type) {
+            case 'text':
+            case 'textarea':
+            case 'string':
+                g_form.setValue(name, 'Test value');
+                changed = true;
+                break;
+
+            case 'choice':
+            case 'select_box':
+                var sel = g_form.getControl(name);
+                if (sel &amp;&amp; sel.options.length &gt; 1) {
+                    g_form.setValue(name, sel.options[1].value);
+                    changed = true;
+                }
+                break;
+
+            case 'radio':
+                var radios = document.getElementsByName(name);
+                if (radios &amp;&amp; radios.length) {
+                    g_form.setValue(name, radios[0].value);
+                    changed = true;
+                }
+                break;
+
+            case 'checkbox':
+                g_form.setValue(name, true);
+                changed = true;
+                break;
+
+            case 'glide_date':
+                var d = new Date(),
+                    mm = ('0' + (d.getMonth() + 1)).slice(-2),
+                    dd = ('0' + d.getDate()).slice(-2),
+                    ds = d.getFullYear() + '-' + mm + '-' + dd;
+                g_form.setValue(name, ds);
+                changed = true;
+                break;
+
+            case 'glide_date_time':
+                var ts = new Date().toISOString().slice(0, 19).replace('T', ' ');
+                g_form.setValue(name, ts);
+                changed = true;
+                break;
+
+            case 'reference':
+                fillReferenceField(name, function(success) {
+                    fillVisibleFields(attempts + 1);
+                });
+                return;
+        }
+    }
+
+    if (changed) {
+        setTimeout(function() {
+            fillVisibleFields(attempts + 1);
+        }, 300);
+    }
+}
+
+function fillReferenceField(varName, callback) {
+    var ga = new GlideAjax('ReferenceFetcher');
+    ga.addParam('sysparm_name', 'getFirstReference');
+    ga.addParam('sysparm_variable', varName);
+    ga.getXMLAnswer(function(answer) {
+        if (!answer || answer === 'null') {
+            if (callback) callback(false);
+            return;
+        }
+        var parts = answer.split('::'),
+            sysId = parts[0],
+            disp = parts[1] || '';
+
+        g_form.setValue(varName, sysId);
+
+        var dispInput = document.getElementById('sys_display.' + varName);
+        if (dispInput) {
+            dispInput.value = disp;
+            if (typeof dispInput.onchange === 'function') dispInput.onchange();
+        }
+        if (callback) callback(true);
+    });
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-02 16:18:22&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;49897201c391221086987132b4013137&lt;/sys_id&gt;&lt;sys_mod_count&gt;39&lt;/sys_mod_count&gt;&lt;sys_name&gt;Autofill test data&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_49897201c391221086987132b4013137&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-03 15:48:20&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;va_supported&gt;false&lt;/va_supported&gt;&lt;variable_set display_value="fill test data"&gt;9cc8ba4dc351221086987132b401315d&lt;/variable_set&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1598071561</payload_hash>
+<remote_update_set display_value="Form AutoFiller">52e14869c3d9621086987132b4013124</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-03 16:07:42</sys_created_on>
+<sys_id>56e14869c3d9621086987132b4013124</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19696d58ef50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-05-03 16:07:42</sys_updated_on>
+<table/>
+<target_name>Autofill test data</target_name>
+<type>Catalog Client Scripts</type>
+<update_domain>global</update_domain>
+<update_guid>ae7dfbd10dd962105d84ade48906b593</update_guid>
+<update_guid_history>ae7dfbd10dd962105d84ade48906b593:1598071561,2be8c4d5b91922102327c6fd208218e5:-1359424831,0d884095361922100ef0968008f98e9c:-1936269537,5a23c09d6fd52210aed78c5db502cf94:771914000,9f92485d57d5221012fcfbcf231f4685:649050157,18a1809d40d522105ef5d17fce891471:-2135459059,e6fef7491ad522103a88e3be12ac9eee:-619755279,fb4ef7490fd522101d9115748a2f844f:-1850832792,77ddfb091ed52210729db2555f921670:-656551984,68cc37c5cbd522101fe271e6a8c94bef:-895682130,079a770591d52210c24831156f08b842:-2044382503,4f2afbc117d52210dd11a51bd5899b51:149740466,4aa97b8121d522101d3db4d9506d6699:-1654805991,1c97bbcd229522105a0afedd906db2ea:-1174255142,ff95b34d4e952210e60e22caa544a532:1170620354,5bb4770d98952210d9487c1a14ac5d5a:683840563,44533b89de952210b2f14cc02bda6973:-1074633404,ddd23f493195221046baf3568ef6bfb0:1331603620,1562f349b29522106ae2ffbed6e2d270:1424293561,eee1b709f8952210f3caadd18e605cb6:-223623595,a151fbc5fb952210872e5a7c07334469:1609734623,413d0fc960d12210dc63f7002b93301a:-842306766,57fb03c5dfd12210ed45959ffeb9f85f:-957941332,3e7b4b49c9d1221084c12d236583b2cc:1114258842,d03bcb09c9d1221074e7f441c14c3327:-823208909,f6dac3c520d12210b9cf8d45086e7732:-347269994,778983c5bdd12210ba9951edc66267e1:-791433111,40c88385a3d122101d8c5b78fe14892b:1674364574,fb878b055fd122101887fb42e99310e4:1676054858,7047c7c1cfd12210ee744965b04c907c:-1298984519,296643c1bad12210b262fc9f9e7ae55a:1909688325,88168b8170d12210870536fa94890ac8:-1176753953,ebb5c74127d12210957650712b4abe52:79190377,9b15c3416ed12210edbed3e11941aca5:-27468362,83a44b01e9d12210a82565246fbfd137:-1012347355,e3248bc9c7912210f60585df9e10bb3d:1676054858,b2a343cd92912210147952d1beaa882b:-1524414230,6bdfb2094c912210eb3116025fda7ab3:1055020053,212dfe05fe912210461a9fc3c5723a47:1127423045,7cca3a41219122107303496ac9c3c4fa:166483503</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>item_option_new_9afcfa05c391221086987132b4013159</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="item_option_new"&gt;&lt;item_option_new action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;attributes/&gt;&lt;cat_item/&gt;&lt;category/&gt;&lt;choice_direction&gt;down&lt;/choice_direction&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;conversational_label/&gt;&lt;create_roles/&gt;&lt;default_html_value/&gt;&lt;default_value/&gt;&lt;delete_roles/&gt;&lt;delivery_plan/&gt;&lt;description/&gt;&lt;display_title&gt;false&lt;/display_title&gt;&lt;do_not_select_first&gt;false&lt;/do_not_select_first&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;dynamic_value_dot_walk_path/&gt;&lt;dynamic_value_field/&gt;&lt;enable_also_request_for&gt;false&lt;/enable_also_request_for&gt;&lt;example_text/&gt;&lt;field/&gt;&lt;global&gt;false&lt;/global&gt;&lt;help_tag&gt;More information&lt;/help_tag&gt;&lt;help_text/&gt;&lt;hidden&gt;false&lt;/hidden&gt;&lt;include_none&gt;false&lt;/include_none&gt;&lt;instructions/&gt;&lt;layout&gt;normal&lt;/layout&gt;&lt;list_table/&gt;&lt;lookup_label/&gt;&lt;lookup_price/&gt;&lt;lookup_table/&gt;&lt;lookup_unique&gt;false&lt;/lookup_unique&gt;&lt;lookup_value/&gt;&lt;macro/&gt;&lt;macroponent/&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;map_to_field&gt;false&lt;/map_to_field&gt;&lt;mask_use_confirmation&gt;false&lt;/mask_use_confirmation&gt;&lt;mask_use_encryption&gt;false&lt;/mask_use_encryption&gt;&lt;name&gt;fill_with_test_data&lt;/name&gt;&lt;not_available_conversation&gt;false&lt;/not_available_conversation&gt;&lt;order/&gt;&lt;post_insert_script/&gt;&lt;price_if_checked&gt;0&lt;/price_if_checked&gt;&lt;pricing_implications&gt;false&lt;/pricing_implications&gt;&lt;published_ref/&gt;&lt;question_text&gt;fill with test data&lt;/question_text&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;read_script/&gt;&lt;rec_lookup_price/&gt;&lt;rec_price_if_checked&gt;0&lt;/rec_price_if_checked&gt;&lt;record/&gt;&lt;record_producer_table/&gt;&lt;reference/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;rich_text/&gt;&lt;roles_to_use_also_request_for/&gt;&lt;save_script&gt;&lt;![CDATA[/** This script is executed before the Record is generated
+* `current`- GlideRecord produced by Record Producer
+* Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+* Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+* Avoid `current.setAbortAction()` and generate a separate record
+* Use `producer.var1` to access variables
+*/]]&gt;&lt;/save_script&gt;&lt;scale_max&gt;5&lt;/scale_max&gt;&lt;scale_min&gt;0&lt;/scale_min&gt;&lt;show_help&gt;false&lt;/show_help&gt;&lt;show_help_on_load&gt;false&lt;/show_help_on_load&gt;&lt;sp_widget/&gt;&lt;summary_macro/&gt;&lt;sys_class_name&gt;item_option_new&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-02 16:28:24&lt;/sys_created_on&gt;&lt;sys_id&gt;9afcfa05c391221086987132b4013159&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;fill with test data&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;item_option_new_9afcfa05c391221086987132b4013159&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-02 16:28:24&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;tooltip/&gt;&lt;topic_block/&gt;&lt;type&gt;7&lt;/type&gt;&lt;ui_page/&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;validate_regex/&gt;&lt;variable_name/&gt;&lt;variable_set display_value="fill test data"&gt;9cc8ba4dc351221086987132b401315d&lt;/variable_set&gt;&lt;variable_width/&gt;&lt;visibility&gt;1&lt;/visibility&gt;&lt;visible_bundle&gt;true&lt;/visible_bundle&gt;&lt;visible_guide&gt;true&lt;/visible_guide&gt;&lt;visible_standalone&gt;true&lt;/visible_standalone&gt;&lt;visible_summary&gt;true&lt;/visible_summary&gt;&lt;write_roles/&gt;&lt;/item_option_new&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=9afcfa05c391221086987132b4013159"/&gt;&lt;fx_price action="delete_multiple" query="id=9afcfa05c391221086987132b4013159"/&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;price_if_checked&lt;/field&gt;&lt;id&gt;9afcfa05c391221086987132b4013159&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-02 16:28:25&lt;/sys_created_on&gt;&lt;sys_id&gt;001d3e05c391221086987132b40131e1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-02 16:28:25&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;fx_price action="INSERT_OR_UPDATE"&gt;&lt;amount&gt;0&lt;/amount&gt;&lt;currency display_value="USD"&gt;USD&lt;/currency&gt;&lt;field&gt;rec_price_if_checked&lt;/field&gt;&lt;id&gt;9afcfa05c391221086987132b4013159&lt;/id&gt;&lt;parent/&gt;&lt;reference_amount&gt;0&lt;/reference_amount&gt;&lt;reference_currency display_value="USD"&gt;USD&lt;/reference_currency&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-02 16:28:25&lt;/sys_created_on&gt;&lt;sys_id&gt;441d3e05c391221086987132b40131df&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-02 16:28:25&lt;/sys_updated_on&gt;&lt;table&gt;item_option_new&lt;/table&gt;&lt;type&gt;calculated&lt;/type&gt;&lt;/fx_price&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1059064518</payload_hash>
+<remote_update_set display_value="Form AutoFiller">52e14869c3d9621086987132b4013124</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-03 16:07:42</sys_created_on>
+<sys_id>5ee14869c3d9621086987132b4013124</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19691d3e6c00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-05-03 16:07:42</sys_updated_on>
+<table/>
+<target_name>fill with test data</target_name>
+<type>Variable</type>
+<update_domain>global</update_domain>
+<update_guid>cc1d7e057f912210b72f0d19ccd86600</update_guid>
+<update_guid_history>cc1d7e057f912210b72f0d19ccd86600:-1059064518</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_2ee9fa270a0a0a660190adc37dccaf19</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="2ee9fa270a0a0a660190adc37dccaf19" sys_domain="global" table="catalog_script_client" version="3" view=""><sys_ui_annotation action="INSERT_OR_UPDATE"><is_plain_text>false</is_plain_text><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-02 17:22:46</sys_created_on><sys_id>84898385c3d1221086987132b401312d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-02 17:22:46</sys_updated_on><text>${gs.getMessage("Client script isolation annotation")}</text><type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type></sys_ui_annotation><sys_ui_element action="INSERT_OR_UPDATE"><element>84898385c3d1221086987132b401312d</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-02 17:22:47</sys_created_on><sys_id>508943c5c3d1221086987132b40131a1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="catalog_script_client" sys_domain="global" view="Default view">2ee9fa270a0a0a660190adc37dccaf19</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-02 17:22:47</sys_updated_on><sys_user/><type>annotation</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-02 17:22:47</sys_created_on><sys_id>5c8943c5c3d1221086987132b40131a1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="catalog_script_client" sys_domain="global" view="Default view">2ee9fa270a0a0a660190adc37dccaf19</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-02 17:22:47</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>name</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-02 17:22:47</sys_created_on><sys_id>d08943c5c3d1221086987132b40131a2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="catalog_script_client" sys_domain="global" view="Default view">2ee9fa270a0a0a660190adc37dccaf19</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-02 17:22:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>applies_to</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-02 17:22:47</sys_created_on><sys_id>588943c5c3d1221086987132b40131a2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="catalog_script_client" sys_domain="global" view="Default view">2ee9fa270a0a0a660190adc37dccaf19</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-02 17:22:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>active</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-02 17:22:47</sys_created_on><sys_id>dc8943c5c3d1221086987132b40131a2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="catalog_script_client" sys_domain="global" view="Default view">2ee9fa270a0a0a660190adc37dccaf19</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-02 17:22:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>ui_type</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-02 17:22:47</sys_created_on><sys_id>548943c5c3d1221086987132b40131a3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="catalog_script_client" sys_domain="global" view="Default view">2ee9fa270a0a0a660190adc37dccaf19</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-02 17:22:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-02 17:22:47</sys_created_on><sys_id>d88943c5c3d1221086987132b40131a3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="catalog_script_client" sys_domain="global" view="Default view">2ee9fa270a0a0a660190adc37dccaf19</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-02 17:22:47</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sys_scope</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-02 17:22:47</sys_created_on><sys_id>508943c5c3d1221086987132b40131a4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="catalog_script_client" sys_domain="global" view="Default view">2ee9fa270a0a0a660190adc37dccaf19</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-02 17:22:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>type</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-02 17:22:47</sys_created_on><sys_id>d48943c5c3d1221086987132b40131a4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="catalog_script_client" sys_domain="global" view="Default view">2ee9fa270a0a0a660190adc37dccaf19</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-02 17:22:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cat_item</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-02 17:22:47</sys_created_on><sys_id>5c8943c5c3d1221086987132b40131a4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="catalog_script_client" sys_domain="global" view="Default view">2ee9fa270a0a0a660190adc37dccaf19</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-02 17:22:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>variable_set</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-02 17:22:47</sys_created_on><sys_id>d08943c5c3d1221086987132b40131a5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="catalog_script_client" sys_domain="global" view="Default view">2ee9fa270a0a0a660190adc37dccaf19</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-02 17:22:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cat_variable</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-02 17:22:47</sys_created_on><sys_id>588943c5c3d1221086987132b40131a5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="catalog_script_client" sys_domain="global" view="Default view">2ee9fa270a0a0a660190adc37dccaf19</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-02 17:22:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>applies_catalog</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-02 17:22:47</sys_created_on><sys_id>dc8943c5c3d1221086987132b40131a5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="catalog_script_client" sys_domain="global" view="Default view">2ee9fa270a0a0a660190adc37dccaf19</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-02 17:22:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>applies_req_item</element><position>13</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-02 17:22:47</sys_created_on><sys_id>548943c5c3d1221086987132b40131a6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="catalog_script_client" sys_domain="global" view="Default view">2ee9fa270a0a0a660190adc37dccaf19</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-02 17:22:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>applies_sc_task</element><position>14</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-02 17:22:47</sys_created_on><sys_id>d88943c5c3d1221086987132b40131a6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="catalog_script_client" sys_domain="global" view="Default view">2ee9fa270a0a0a660190adc37dccaf19</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-02 17:22:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>applies_target_record</element><position>15</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-02 17:22:47</sys_created_on><sys_id>508943c5c3d1221086987132b40131a7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="catalog_script_client" sys_domain="global" view="Default view">2ee9fa270a0a0a660190adc37dccaf19</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-02 17:22:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>16</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-02 17:22:47</sys_created_on><sys_id>d48943c5c3d1221086987132b40131a7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="catalog_script_client" sys_domain="global" view="Default view">2ee9fa270a0a0a660190adc37dccaf19</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-02 17:22:47</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>script</element><position>17</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-02 17:22:47</sys_created_on><sys_id>5c8943c5c3d1221086987132b40131a7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="catalog_script_client" sys_domain="global" view="Default view">2ee9fa270a0a0a660190adc37dccaf19</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-02 17:22:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>isolate_script</element><position>18</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-02 17:22:47</sys_created_on><sys_id>d08943c5c3d1221086987132b40131a8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="catalog_script_client" sys_domain="global" view="Default view">2ee9fa270a0a0a660190adc37dccaf19</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-02 17:22:47</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>catalog_script_client</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>glide.maint</sys_created_by><sys_created_on>2007-03-08 00:19:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>2ee9fa270a0a0a660190adc37dccaf19</sys_id><sys_mod_count>6</sys_mod_count><sys_name>catalog_script_client</sys_name><sys_overrides display_value="">global</sys_overrides><sys_package display_value="Service Catalog Platform" source="com.glideapp.servicecatalog.platform">3ee8dcaf5ca312104f3496f8659cf623</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_2ee9fa270a0a0a660190adc37dccaf19</sys_update_name><sys_updated_by>glide.maint</sys_updated_by><sys_updated_on>2008-02-06 13:41:31</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>725965763</payload_hash>
+<remote_update_set display_value="Form AutoFiller">52e14869c3d9621086987132b4013124</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-03 16:07:42</sys_created_on>
+<sys_id>96e14869c3d9621086987132b4013125</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1969205aba70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-05-03 16:07:42</sys_updated_on>
+<table>catalog_script_client</table>
+<target_name>Catalog Client Scripts</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>dc8943c54fd1221039b27f7bc6f162aa</update_guid>
+<update_guid_history>dc8943c54fd1221039b27f7bc6f162aa:725965763,d0898385bed12210fdfce3ffc3822531:268226839</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_08583a8dc351221086987132b401312a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.ReferenceFetcher&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;ReferenceFetcher&lt;/name&gt;&lt;sandbox_callable&gt;true&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var ReferenceFetcher = Class.create();
+ReferenceFetcher.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+    getFirstReference: function() {
+        // 1) Get the variable token passed from the client (e.g. "IO:abcdef123456")
+        var varToken = this.getParameter('sysparm_variable');
+        if (!varToken)
+            return '';
+
+        // 2) Strip off "IO:" prefix to get the real sys_id
+        var varSysId = varToken.indexOf(':') &gt; -1 ?
+            varToken.split(':')[1] :
+            varToken;
+
+        // 3) Load the variable definition record
+        var io = new GlideRecord('item_option_new');
+        if (!io.get(varSysId))
+            return '';
+
+        // 4) Read its reference table and qualifier
+        var tbl = io.getValue('reference');
+        var qualifier = io.getValue('reference_qual') || '';
+
+        // 5) Query the target table
+        try {
+            var gr = new GlideRecordSecure(tbl);
+            if (qualifier)
+                gr.addEncodedQuery(qualifier);
+            gr.setLimit(1);
+            gr.query();
+            if (gr.next()) {
+                return gr.getUniqueValue() + '::' + gr.getDisplayValue();
+            }
+        } catch (e) {
+            gs.error('ReferenceFetcher error for ' + tbl + ': ' + e);
+        }
+
+        return ''; // no match or error
+    },
+
+    type: 'ReferenceFetcher'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-02 16:09:03&lt;/sys_created_on&gt;&lt;sys_id&gt;08583a8dc351221086987132b401312a&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;ReferenceFetcher&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_08583a8dc351221086987132b401312a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-03 15:50:59&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;08583a8dc351221086987132b401312a&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-05-02 16:09:03&lt;/sys_created_on&gt;&lt;sys_id&gt;d4a87a4dc351221086987132b4013126&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-05-02 16:09:03&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>681568952</payload_hash>
+<remote_update_set display_value="Form AutoFiller">52e14869c3d9621086987132b4013124</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-05-03 16:07:42</sys_created_on>
+<sys_id>d2e14869c3d9621086987132b4013125</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19696d7fe060000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-05-03 16:07:42</sys_updated_on>
+<table/>
+<target_name>ReferenceFetcher</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>9d1e77dd8b996210348331ab094bf02f</update_guid>
+<update_guid_history>9d1e77dd8b996210348331ab094bf02f:681568952,3beef74999d52210dad4282b2871f0dd:615141789,403e3749b1d522103214a03f70102d5b:-1025887862,64dd33097ed52210d1545ca3aae9f80d:390262005,8cbcf345d1d5221031bbdea97bd67f09:393768842,aa8bfb4558d52210280397697f59d711:795500937,5a8af30565d522100b74c1696cf23fa7:-1061186803,d14afbc1a5d52210e53580d288a9da56:406470106,d429bb8d859522103f3b9a59547b6256:-1303539157,b1373b8dc6952210a059a6184622f87f:-1337388630,11067b4d51952210aaae85b8b5260fc5:237936003,c27573894c952210a6bfd30e9a74e882:-151457614,a0a8be4d7151221050eb62c058f87a9f:1171678613</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
